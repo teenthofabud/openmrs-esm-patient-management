@@ -1,12 +1,13 @@
 name: E2E Tests
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+# stopping these triggers for now as they are causing issues with the workflow
+#  push:
+#    branches:
+#      - main
+#  pull_request:
+#    branches:
+#      - main
   workflow_dispatch:
 
 env:
