@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/build-frontend-module.yml@main
+    uses: teenthofabud/openmrs-contrib-gha-workflows/.github/workflows/build-frontend-module.yml@main
     with:
       pre_verify_command: yarn check-translations
       verify_command: yarn verify
