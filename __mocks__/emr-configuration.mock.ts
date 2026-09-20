@@ -1,4 +1,4 @@
-import { type EmrApiConfigurationResponse } from '@openmrs/esm-ward-app/src/hooks/useEmrConfiguration';
+import { type EmrApiConfigurationResponse } from '@teenthofabud/esm-ward-app/src/hooks/useEmrConfiguration';
 
 export const emrConfigurationMock: EmrApiConfigurationResponse = {
   clinicianEncounterRole: { uuid: '240b26f9-dd88-4172-823d-4a8bfeb7841f' },
